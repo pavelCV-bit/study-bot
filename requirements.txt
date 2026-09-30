@@ -1,0 +1,5 @@
+aiogram>=3.13,<4
+aiohttp
+fastapi
+python-dotenv
+tzdata
