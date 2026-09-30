@@ -34,7 +34,7 @@ SOON_DAYS = 7     # 🟡 если осталось столько дней ил�
 
 # Какая ИИ-модель разбирает текст (Groq). Если вдруг перестала работать —
 # впиши другую из списка моделей на console.groq.com
-GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
 
 # Название таблицы в Supabase (должно совпадать с schema.sql)
 TABLE = "study_tasks"
